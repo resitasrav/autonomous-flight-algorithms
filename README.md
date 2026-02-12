@@ -76,12 +76,12 @@ Projenin Gazebo ve PX4 üzerindeki çalışma performansına dair ekran görünt
 
 ---
 
-## 🚀 Öne Çıkan Teknik Detaylar
+## 🎯 Uygulanan Mühendislik Çözümleri
+* SITL Simülasyonu: Geliştirme maliyetlerini düşürmek ve uçuş güvenliğini artırmak amacıyla, fiziksel prototip öncesi tüm senaryolar Gazebo SITL ortamında doğrulanmıştır.
 
-* **SITL (Software-in-the-Loop):** Gerçek donanıma (Orange Pi / Pixhawk) ihtiyaç duymadan, kodun fiziksel dünyadaki tepkilerini %95 doğrulukla test etme imkanı.
-* **MAVLink Entegrasyonu:** Düşük bant genişliğinde, yüksek güvenilirlikli veri paketleme protokolü ile yer istasyonu haberleşmesi.
-* **Offboard Control:** İHA'nın kontrolünü PX4'ün standart modlarından çıkarıp, dışarıdan bir Python/C++ scripti (MAVSDK) ile devralma ve otonom rota çizme.
+* Haberleşme Katmanı: İHA ve Yer Kontrol İstasyonu (GCS) arasındaki veri akışı, endüstri standardı olan MAVLink protokolü ile optimize edilmiştir.
 
+* Otonom Kontrol (Offboard): Standart uçuş modlarının ötesine geçilerek, MAVSDK üzerinden özel yörünge algoritmaları ve görev odaklı otonom komut seti entegre edilmiştir.
 ## 📁 Proje Klasör Yapısı
 
 ```text
@@ -91,3 +91,16 @@ Projenin Gazebo ve PX4 üzerindeki çalışma performansına dair ekran görünt
 ├── worlds/             # Gazebo özel görev alanları (.world)
 ├── models/             # İHA ve sensör konfigürasyonları
 └── docs/               # Sistem akış diyagramları
+
+
+---
+
+## ✍️ Geliştirici ve İletişim
+
+Bu proje **Reşit Asrav** tarafından otonom sistemler ve savunma sanayii teknolojilerine katkı sunmak amacıyla geliştirilmiştir. Teknik detaylar, iş birliği veya projeye dair sorularınız için aşağıdaki kanallardan bana ulaşabilirsiniz:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](linkedin.com/in/reşit-asrav-94510b232) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:resitasrav@email.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/resitasrav)
+
+> "Gelecek otonom sistemlerde, otonom sistemler ise doğru algoritmalarla şekillenir." 🚀
