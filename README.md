@@ -43,7 +43,7 @@ Bir savunma sanayii projesinde sistemin nasıl haberleştiğini anlamak kritikti
 
 | Otonom Görev İcrası | MAVLink Telemetri Akışı |
 | :---: | :---: |
-| <img src="assets/qgc-mission.png" width="400"> | <img src="assets/mavlink-logs.png" width="400"> |
+| <img src="assets/qgc_rota.png" width="400"> | <img src="assets/anlik_veri.png" width="400"> |
 | *QGC üzerinden rota takibi* | *Hız, irtifa ve batarya verileri* |
 
 ---
