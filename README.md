@@ -99,8 +99,8 @@ Projenin Gazebo ve PX4 üzerindeki çalışma performansına dair ekran görünt
 
 Bu proje **Reşit Asrav** tarafından otonom sistemler ve savunma sanayii teknolojilerine katkı sunmak amacıyla geliştirilmiştir. Teknik detaylar, iş birliği veya projeye dair sorularınız için aşağıdaki kanallardan bana ulaşabilirsiniz:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](linkedin.com/in/reşit-asrav-94510b232) 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:resitasrav@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/resitasrav) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:resitasrav@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/resitasrav)
 
 > "Gelecek otonom sistemlerde, otonom sistemler ise doğru algoritmalarla şekillenir." 🚀
