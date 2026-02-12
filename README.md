@@ -1,10 +1,22 @@
 # Autonomous Flight Algorithms 🛰️
 
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-PX4_Autopilot-blue)
-![Simulator](https://img.shields.io/badge/Simulator-Gazebo-orange)
-![GCS](https://img.shields.io/badge/GCS-QGroundControl-purple)
+### 🛠️ Geliştirme Ekosistemi ve Standartlar
 
+Bu projede kullanılan teknolojiler ve haberleşme protokolleri endüstri standartlarına dayanmaktadır:
+
+- **Diller:** - [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) - *Scripting ve MAVSDK entegrasyonu.*
+  - [![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) - *Düşük seviyeli uçuş algoritmaları.*
+  - [![XML](https://img.shields.io/badge/XML-FFA500?style=flat&logo=xml&logoColor=white)](https://en.wikipedia.org/wiki/XML) - *MAVLink mesaj tanımlamaları ve SDF modelleri.*
+
+- **Otonom Sistem Katmanları:**
+  - [![PX4 Autopilot](https://img.shields.io/badge/Platform-PX4_Autopilot-blue)](https://px4.io/) - *Uçuş kontrol yazılımı çekirdeği.*
+  - [![ROS2](https://img.shields.io/badge/Middleware-ROS2-106699)](https://docs.ros.org/en/foxy/index.html) - *Robotik işletim sistemi katmanı.*
+  - [![MAVLink](https://img.shields.io/badge/Protocol-MAVLink-blueviolet)](https://mavlink.io/en/) - *İHA-Yer İstasyonu haberleşme protokolü.*
+
+- **Simülasyon ve Arayüz:**
+  - [![Gazebo](https://img.shields.io/badge/Simulator-Gazebo-orange)](https://gazebosim.org/home) - *Fizik tabanlı 3D simülasyon ortamı.*
+  - [![QGroundControl](https://img.shields.io/badge/GCS-QGroundControl-purple)](http://qgroundcontrol.com/) - *Yer kontrol istasyonu ve telemetri.*
+  - [![SITL](https://img.shields.io/badge/Test-SITL-brightgreen)](https://docs.px4.io/main/en/simulation/) - *Software-in-the-Loop test metodolojisi.*
 Bu proje; otonom İHA sistemleri için **PX4 Autopilot**, **Gazebo** ve **QGroundControl (QGC)** ekosistemlerinin entegrasyonu üzerine kurgulanmıştır. Geliştirilen algoritmalar, MAVLink protokolü üzerinden tam zamanlı veri alışverişi yaparak otonom görev icra etmektedir.
 
 ---
