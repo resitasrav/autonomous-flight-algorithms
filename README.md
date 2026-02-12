@@ -91,7 +91,7 @@ Projenin Gazebo ve PX4 üzerindeki çalışma performansına dair ekran görünt
 ├── worlds/             # Gazebo özel görev alanları (.world)
 ├── models/             # İHA ve sensör konfigürasyonları
 └── docs/               # Sistem akış diyagramları
-
+```
 
 ---
 
