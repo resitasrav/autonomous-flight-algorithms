@@ -37,8 +37,8 @@ Bir savunma sanayii projesinde sistemin nasıl haberleştiğini anlamak kritikti
 ## 📸 Sistem Ekosistemi Görünümü
 
 <div align="center">
-  <img src="assets/system-integration.png" alt="Sistem Haberleşmesi" width="900">
-  <p><em>Şekil 1: Sol tarafta Gazebo fiziksel simülasyonu, sağ tarafta QGroundControl telemetri ekranı ve terminal üzerinde koşan PX4 SITL katmanı.</em></p>
+  <img src="assets/px4_gazebo_qgc_ekosistemi.png" alt="Sistem Haberleşmesi" width="900">
+  <p><em>Şekil 1: Sağ tarafta Gazebo fiziksel simülasyonu ve Ubuntu 22.04 terminali, sol tarafta QGroundControl telemetri ekranı ve terminal üzerinde koşan PX4 SITL katmanı.</em></p>
 </div>
 
 | Otonom Görev İcrası | MAVLink Telemetri Akışı |
