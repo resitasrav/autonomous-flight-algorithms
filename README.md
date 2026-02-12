@@ -36,6 +36,34 @@ Bir savunma sanayii projesinde sistemin nasıl haberleştiğini anlamak kritikti
 
 ---
 
+## 📊 Simülasyon ve Sistem Testleri
+
+Projenin Gazebo ve PX4 üzerindeki çalışma performansına dair ekran görüntüleri aşağıdadır. 
+
+### 🛸 Multi-İHA ve Sistem Başlangıcı
+<div align="center">
+  <img src="assets/MULTI_IHA_gazebo_px4.png" alt="Multi İHA Gazebo PX4" width="850">
+  <p><em>Şekil 1: PX4 ve Gazebo üzerinde çoklu İHA (Multi-UAV) sistem entegrasyonu ve SITL başlangıcı.</em></p>
+</div>
+
+---
+
+### 🛠 Operasyonel Görünümler
+
+| Sistem Başlangıcı | Kalkış Sekansı |
+| :---: | :---: |
+| <img src="assets/sistem_baslangici.png" width="400"> | <img src="assets/kalkis_gazebo.png" width="400"> |
+| *Terminal üzerinden MAVLink bağlantısı* | *Otonom kalkış ve waypoint takibi* |
+
+| Multi-İHA Yakın Plan | Alternatif Görünüm |
+| :---: | :---: |
+| <img src="assets/multi_iha_gazebo.png" width="400"> | <img src="assets/multi_iha_gazebo2.png" width="400"> |
+| *Sürü algoritmaları test ortamı* | *Farklı kamera açılarından takip* |
+
+
+
+---
+
 ## 🚀 Öne Çıkan Teknik Detaylar
 
 * **SITL (Software-in-the-Loop):** Gerçek donanıma (Orange Pi / Pixhawk) ihtiyaç duymadan, kodun fiziksel dünyadaki tepkilerini %95 doğrulukla test etme imkanı.
