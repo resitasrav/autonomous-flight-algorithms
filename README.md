@@ -4,7 +4,8 @@
 
 Bu projede kullanılan teknolojiler ve haberleşme protokolleri endüstri standartlarına dayanmaktadır:
 
-- **Diller:** - [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) - *Scripting ve MAVSDK entegrasyonu.*
+- **Diller:**
+   - [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/) - *Scripting ve MAVSDK entegrasyonu.*
   - [![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) - *Düşük seviyeli uçuş algoritmaları.*
   - [![XML](https://img.shields.io/badge/XML-FFA500?style=flat&logo=xml&logoColor=white)](https://en.wikipedia.org/wiki/XML) - *MAVLink mesaj tanımlamaları ve SDF modelleri.*
 
